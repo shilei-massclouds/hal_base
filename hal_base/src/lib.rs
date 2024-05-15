@@ -2,6 +2,10 @@
 #![feature(exclusive_wrapper)]
 
 mod platform;
+pub use platform::terminate;
+
+mod time;
+pub use time::current_time;
 
 pub fn init() {
 }

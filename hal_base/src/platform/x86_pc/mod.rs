@@ -1,5 +1,7 @@
 use x86_64::instructions::port::PortWriteOnly;
 
+pub mod time;
+
 pub fn terminate() -> ! {
     #[cfg(platform = "x86_64-pc-oslab")]
     {

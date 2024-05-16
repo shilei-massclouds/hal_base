@@ -9,6 +9,9 @@ license = "GPL-3.0-or-later OR Apache-2.0"
 [dependencies]
 cfg-if = "1.0"
 config = { git = "ssh://git@github.com/shilei-massclouds/config.git" }
+axtype = { git = "ssh://git@github.com/shilei-massclouds/axtype.git" }
+kernel_guard = { git = "ssh://git@github.com/shilei-massclouds/kernel_guard.git" }
+percpu = { git = "ssh://git@github.com/shilei-massclouds/percpu.git" }
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
 x86_64 = "0.14"
